@@ -1,6 +1,6 @@
 #Quet - Small HTML5 _only_ library for javascript
 
-TODO:: Build CSS module to be able to add specific styles to stayle attribute
+TODO:: Build CSS module to be able to add specific styles to style attribute
 
 This is an experiment to reduce my dependecy of jQuery
 
