@@ -17,8 +17,7 @@ var quet = (function(){
         ele: [],
         init : function(selector, que){
                 
-                //Let the browser do the work
-                result = document.querySelectorAll(selector);
+                result = (/^#[\w\-]+$/.test(selector)) ? [ document.getElementById(selector.substr(1)) ] : document.querySelectorAll(selector);
                 
                 quet.selector = selector;
                 quet.ele = result;
